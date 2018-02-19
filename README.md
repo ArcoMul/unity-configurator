@@ -1,4 +1,4 @@
-# Configurator
+# Unity Configurator
 
 Read from extendable config files.
 
@@ -25,7 +25,7 @@ bool sendEmail = Configurator.GetBool("email.enabled"));
 
 **Common.json**
 
-```json
+```
 {
     "title": "Generic application",
     "version": "0.1",
@@ -40,7 +40,7 @@ bool sendEmail = Configurator.GetBool("email.enabled"));
 
 **Production.json**
 
-```json
+```
 {
     "_extends": "Common",
     "api": {
@@ -53,7 +53,7 @@ bool sendEmail = Configurator.GetBool("email.enabled"));
 
 **Resulting config**
 
-```json
+```
 {
     "title": "Generic application",
     "version": "0.1",
