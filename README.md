@@ -2,6 +2,10 @@
 
 Read from extendable config files.
 
+## Dependencies
+
+* SimpleJSON
+
 ## Usage
 
 Get values from JSON file by specifying the key. Seperate levels with a dot. See the Example section below on how to extend one config with another.
